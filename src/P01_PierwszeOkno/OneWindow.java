@@ -5,17 +5,17 @@ import javax.swing.*;
 
 public class OneWindow {
 
-    public JPanel createContentPane(){
+    public JPanel createContentPane () {
         JPanel myPanel = new JPanel();
 
         return myPanel;
     }
 
-    public OneWindow(){
+    public OneWindow () {
         JFrame myWindow = new JFrame("Moje pierwsze okno");
         myWindow.setContentPane(createContentPane());
         myWindow.setSize(800, 600);
-      //  myWindow.setLocation(340,100);
+        //  myWindow.setLocation(340,100);
         myWindow.setLayout(null);
         myWindow.setResizable(false);
         myWindow.setLocationRelativeTo(null);
