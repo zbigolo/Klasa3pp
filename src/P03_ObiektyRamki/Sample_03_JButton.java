@@ -67,7 +67,7 @@ public class Sample_03_JButton {
     }
 
     public Sample_03_JButton() {
-        JFrame myWindow = new JFrame("Moje pierwsze okno");
+        JFrame myWindow = new JFrame("Sample JButton");
         myWindow.setContentPane(myContentPane());
         myWindow.setSize(800, 600);
         myWindow.setLayout(null);
