@@ -42,7 +42,7 @@ public class Sample_01_JLabel {
     }
 
     public Sample_01_JLabel () {
-        JFrame myWindow = new JFrame("Moje pierwsze okno");
+        JFrame myWindow = new JFrame("JLabel Sample");
         myWindow.setContentPane(myContentPane());
         myWindow.setSize(800, 600);
         myWindow.setLayout(null);
